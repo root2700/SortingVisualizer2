@@ -1,0 +1,48 @@
+.array-container {
+  flex:0.9;
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+  margin: 15px;
+  padding: 20px;
+  background-color:black;
+  width:80vw;
+  box-shadow:-1px 4px 20px -6px rgba(0,0,0,0.75);
+}
+
+button{
+  margin-right: 10px;
+  flex:1;
+  margin:2px;
+  border-radius: 5px;
+  background-color:#e6e6e6;
+  border:0;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: bisque;
+  
+}
+
+.array-bar {
+  width: 10px;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  /* background-image: url(https://thegentlemenofcrypto.com/wp-content/uploads/2020/07/Screen-Shot-2020-07-29-at-3.16.04-AM.png); */
+  background-color: #fdfdfe;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  height:100vh;
+  justify-content: center;
+  background-color:#e6e6e6;
+}
+
